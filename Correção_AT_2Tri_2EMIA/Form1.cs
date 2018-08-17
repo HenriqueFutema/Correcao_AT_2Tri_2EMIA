@@ -50,9 +50,9 @@ namespace Correção_AT_2Tri_2EMIA
             if (ChecarJogadaValida())
             {
                 lbJogadaSelecionada.Text = string.Format(
-                            "Você selecionou a jogada {0}.",
-                            jogadas[jogadaSelecionada - 1]
-                        );
+                    "Você selecionou a jogada {0}.",
+                    jogadas[jogadaSelecionada - 1]
+                );
             }
             else
             {
